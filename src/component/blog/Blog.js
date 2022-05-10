@@ -64,7 +64,6 @@ function Blog(){
                 <span className={item.id === numpage ? "active" :""} onClick={() => changepage(item.id)} key={item.id}>{item.id}</span>
             )
         })
-        console.log(page)
     return(
         <div className="delivery blog">
             <div className="container">
