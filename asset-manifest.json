@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/storee-react/static/css/main.359b77f1.css",
-    "main.js": "/storee-react/static/js/main.bb0a1430.js",
+    "main.js": "/storee-react/static/js/main.a7f32b01.js",
     "static/js/787.884e199e.chunk.js": "/storee-react/static/js/787.884e199e.chunk.js",
     "static/media/sample-2.jpg": "/storee-react/static/media/sample-2.a5b4b5e61c4a6bb8ffac.jpg",
     "static/media/sample-1.jpg": "/storee-react/static/media/sample-1.a734d0731c3c9970db60.jpg",
@@ -12,11 +12,11 @@
     "static/media/slick.woff": "/storee-react/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/storee-react/index.html",
     "main.359b77f1.css.map": "/storee-react/static/css/main.359b77f1.css.map",
-    "main.bb0a1430.js.map": "/storee-react/static/js/main.bb0a1430.js.map",
+    "main.a7f32b01.js.map": "/storee-react/static/js/main.a7f32b01.js.map",
     "787.884e199e.chunk.js.map": "/storee-react/static/js/787.884e199e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.359b77f1.css",
-    "static/js/main.bb0a1430.js"
+    "static/js/main.a7f32b01.js"
   ]
 }
