@@ -2,8 +2,6 @@ import { Link } from 'react-router-dom';
 import { Navbar,Container,Nav } from 'react-bootstrap';
 import "./nav.css";
 
-import src from '../../../package.json';
-
 function Navbarr(){
     return(
         <div className='nav'>
