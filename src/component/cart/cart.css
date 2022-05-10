@@ -1,0 +1,102 @@
+.cart-items {
+    margin-top: 40px !important;
+}
+
+.cart-items .allitems{
+    border: 1px solid #dddddd;
+}
+
+.cart-items .allitems h4{
+    padding: 10px;
+}
+
+.cart-items .allitems .img{
+    padding-left: 20px;
+}
+
+.cart-items .allitems img{
+    border: 1px solid #eaeaea;
+    width: 60%;
+}
+
+.cart-items .allitems .item{
+    padding: 30px 10px 0;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.cart-items .allitems .item .end{
+    font-weight: 700;
+    color: #df711a ;
+    display: block;
+}
+
+.cart-items .allitems .item .content h6{
+    margin-bottom: 10px !important;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.cart-items .allitems .item .content h6:hover{
+    color: #df711a;
+}
+
+.discount{
+    text-decoration: line-through;
+    opacity: .8;
+    font-weight: 600;
+}
+
+.rate{
+    line-height: 18px;
+    background: #f39d72;
+    color: #FFFFFF;
+    font-weight: normal;
+    padding: 4px 10px;
+    font-size: 14px;
+    margin-left: 10px !important;
+    text-transform: uppercase;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.delete{
+    margin-bottom: 30px !important;
+}
+
+.delete span{
+    font-weight: 500;
+}
+
+.delete .icon{
+    float: right;
+}
+
+.delete .icon i{
+    color: #222222;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.delete .icon i:hover{
+    color: #df711a;
+}
+
+.cart-info span.remove{
+    position: absolute;
+    right: 0;
+}
+
+span.remove i{
+    color: #222222;
+    transition: all .3s ease-in-out;
+}
+
+span.remove i:hover{
+    color: #df711a;
+}
+
+.qu{
+    color: red;
+    margin-left : 10px !important;
+    cursor: pointer;
+}

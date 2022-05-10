@@ -1,0 +1,8 @@
+.about .info p{
+    margin-bottom: 20px !important;
+}
+
+.about .info2 .img{
+    background-image: url(../../images/cms-img.jpg);
+    height: 193px;
+}

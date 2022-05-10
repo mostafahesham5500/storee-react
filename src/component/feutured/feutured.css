@@ -1,0 +1,79 @@
+
+.map .item{
+    padding: 10px 20px;
+    border: solid 0.5px lightgrey;
+    margin-bottom: 20px !important;
+}
+
+.map .content h6{
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 20px !important;
+    margin-bottom: 10px !important;
+    transition: all .3s ease-in-out;
+}
+
+.map .content h6:hover{
+    color: #df711a;
+}
+
+.map .price{
+    margin-bottom: 7px;
+}
+
+.map .price span{
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 10px !important;
+}
+
+.map .price .discount{
+    color: #666666;
+    text-decoration: line-through;
+    margin-right: 6px !important;
+}
+
+.map .price .end{
+    color: #df711a;
+}
+
+.map i{
+    font-size: 15px;
+    color: #f0f0f0;
+}
+
+.map .star-x{
+    position: relative;
+    height: 35px;
+}
+
+.map .star-y{
+    color: #df711a !important;
+}
+
+.feutured .pages{
+    margin-top: 20px !important;
+}
+
+.nnn{
+    width: 100%;
+}
+
+.feutured .cart,.home .cart{
+    background-color: #f0f0f0;
+    position: absolute;
+    right: -10px;
+    color: black;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 9px;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.map .item:hover .cart{
+    background-color: #df711a;
+    color: white !important;
+}

@@ -1,0 +1,135 @@
+.delivery {
+    margin-top: 40px !important;
+}
+.delivery .content .link{
+    margin-bottom: 30px !important;
+}
+.delivery .content .link a{
+    color: #6b6b6b;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 10px !important;
+    transition: all .3s ease-in-out;
+}
+
+.delivery .content .link a:last-child{
+    margin-left: 10px !important;
+}
+
+.delivery .content .link a:hover{
+    color: #df711a;
+}
+
+.delivery .content .head{
+    font-size: 24px;
+    color: #222222;
+    margin-bottom: 30px !important;
+}
+
+.delivery .info{
+    color: #666666;
+}
+
+.delivery .info h2{
+    margin-bottom: 10px !important;
+}
+
+.delivery .info h3{
+    margin-bottom: 20px !important;
+}
+
+.delivery .info p{
+    line-height: 28px;
+}
+
+.delivery .info .one{
+    margin-bottom: 20px !important;
+}
+
+.delivery .info .two{
+    margin-bottom: 30px !important;
+}
+
+.delivery .product{
+    margin-bottom: 20px !important;
+}
+
+.delivery .products{
+    border: solid 1px #f0f0f0;
+}
+
+.delivery .name-product{
+    padding: 10px 20px;
+    font-size: 23px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.delivery .products .item{
+    padding: 10px 20px;
+}
+
+.delivery .products .content h6{
+    cursor: pointer;
+    margin-bottom: 10px !important;
+    transition: all .3s ease-in-out;
+}
+
+.delivery .products .content h6:hover{
+    color: #df711a;
+}
+
+.delivery .product .price{
+    margin-bottom: 7px;
+}
+
+.delivery .product .price span{
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 10px !important;
+}
+
+.delivery .product .price .discount{
+    color: #666666;
+    text-decoration: line-through;
+    margin-right: 6px !important;
+}
+.delivery .product .price .end{
+    color: #df711a;
+}
+
+.delivery .product .star-x i{
+    font-size: 15px;
+    color: #f0f0f0;
+}
+
+.delivery .product .star-y i{
+    font-size: 15px;
+    color: #df711a;
+}
+
+@media (max-width: 992px){
+    .d-x-none{
+        width: 100%;
+    }
+    .delivery .product{
+        max-height: 0;
+        overflow: hidden;
+        margin: 0 !important;
+        padding: 0;
+        transition: all .6s ease-in-out;
+    }
+}
+
+.add-height{
+    max-height: 370px !important;
+}
+
+.delivery .blog .product .item .content h6{
+    margin-bottom: 0px !important;
+    opacity: .8;
+}
+
+.nnn{
+    margin: 30px 0 !important;
+}

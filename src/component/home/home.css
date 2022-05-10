@@ -1,0 +1,355 @@
+.slick-prev, .slick-next{
+    font-size: 30px !important;
+    color: white;
+    background: black;
+    width: 40px;
+    height: 40px;
+}
+
+.slick-arrow{
+    z-index: 1;
+    opacity: 0;
+    transition: all .3s ease-in-out;
+}
+
+.slick-arrow::before{
+    transition: all .3s ease-in-out;
+}
+
+.slick-arrow:hover{
+    background-color: #df711a;
+}
+
+.head .slick-prev{
+    transform: translateX(60px) !important;
+}
+
+.head .slick-next{
+    transform: translateX(-60px) ;
+}
+
+.slide-1,.slide-2{
+    height: 400px;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.slide-1{
+    background-image: url(../../images/sample-1.jpg);
+}
+
+.slide-2{
+    background-image: url(../../images/sample-2.jpg);
+}
+
+.slick-slider:hover .slick-arrow{
+    opacity: 1;
+    display: block !important;
+}
+
+.head.slick-slider:hover .slick-prev{
+    transform: translateX(100px) !important;
+}
+
+.head.slick-slider:hover .slick-next{
+    transform: translateX(-100px) !important;
+}
+
+.slick-dots{
+    margin-bottom: 40px !important;
+}
+
+.subbanners{
+    margin: 50px 0 !important;
+}
+
+.subbanners img{
+    width: 100%;
+}
+
+.slide2{
+    margin: 50px 0 !important;
+}
+
+.slide2 .slick-dots,.slide3 .slick-dots,.delivery .slick-dots{
+    display: none !important;
+}
+
+.slick-arrow{
+    color: transparent;
+}
+
+.home .map{
+    padding: 0 11px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.home .slide2 .slick-arrow {
+    opacity: 1;
+}
+
+.subbanners .slick-slider .slick-next,.slide2 .slick-slider .slick-next,
+.blog .slick-slider .slick-next,.brands .slick-slider .slick-next{
+    top: -60px;
+    right: 20px;
+    transform: translateX(0) !important;
+}
+
+.subbanners .slick-slider .slick-prev,.slide2 .slick-slider .slick-prev,
+.blog .slick-slider .slick-prev,.brands .slick-slider .slick-prev{
+    top: -60px;
+    right: 67px;
+    transform: translateX(0) !important;
+    left: auto;
+}
+
+.slide2 h2{
+    margin-bottom: 20px !important;
+    margin-left: 10px !important;
+}
+
+.slide3 .item{
+    padding: 20px !important;
+}
+
+.slide3 img{
+    width: 50%;
+    margin: auto !important;
+    transition: all .3s ease-in-out;
+}
+
+.slide3 .item:hover img{
+    transform: scale(1.2);
+}
+
+.slide3 h3{
+    text-align: center;
+}
+
+.slide3 .map:hover h3{
+    color: #df711a;
+}
+
+.cmsbanner {
+    position: relative;
+    overflow: hidden;
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+}
+
+a.banner-anchor {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    overflow: hidden;
+    width: 100%;
+}
+
+.banner-detail {
+    position: absolute;
+    color: #000000;
+    text-transform: capitalize;
+    z-index: 5;
+    right: 30px;
+    top: 35px;
+    text-align: left;
+}
+
+
+
+.offer-title {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.main-title {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 34px;
+    padding: 10px 0px 20px;
+}
+
+.main-title span {
+    display: block;
+}
+
+.shopnow {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.banners .cmsbanner img{
+    transition: all .3s ease-in-out;
+    width: 100%;
+}
+
+.banners .cmsbanner:hover img{
+    transform: scale(1.2);
+}
+
+.shopnow a {
+    color: #000000;
+    font-size: 15px;
+    font-weight: 500;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: underline !important;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+.shopnow a:hover{
+    color: #000000;
+    text-decoration: none !important;
+}
+
+.delivery button{
+    opacity: 1;
+}
+
+.home .delivery .info {
+    margin: 10px !important;
+}
+
+.home .brands{
+    margin-top: 80px !important;
+}
+
+.home .brands ul{
+    display: none !important;
+}
+
+.home .brands .info{
+    padding: 15px 20px;
+    border: 0.4px solid #e2dcdc;
+    margin-right: 10px !important;
+}
+
+.home .brands .info:hover img{
+    animation: brand 3s ease-in-out;
+}
+
+@keyframes brand {
+    20%{transform: rotate(15deg);}
+    40%{transform: rotate(-15deg);}
+    60%{transform: rotate(8deg);}
+    80%{transform: rotate(-8deg);}
+    100%{transform: rotate(0deg);}
+}
+
+.Add_product{
+    position: fixed;
+    top: 60px;
+    width: 80%;
+    min-height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    z-index: 333333;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 15px;
+}
+
+.Add_product .head{
+    color: #4cbb6c;
+    margin-bottom: 10px !important;
+}
+
+.Add_product span.close{
+    position: absolute;
+    right: 18px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.Add_product .details{
+    margin-top: 20px !important;
+}
+
+.Add_product img{
+    border: 1px solid rgb(182, 182, 182);
+}
+
+.Add_product .titl{
+    color: #222222;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: normal;
+    line-height: 22px;
+    margin-bottom: 10px !important;
+}
+
+.Add_product .price{
+    color: #df711a;
+    font-weight: 600;
+    font-size: 17px;
+    margin-bottom: 5px !important;
+    letter-spacing: 0px;
+}
+
+.Add_product h5{
+    margin-bottom: 10px !important;
+}
+
+.Add_product .cart-content{
+    margin-left: 15px !important;
+}
+
+.Add_product .cart-content h4,.Add_product .cart-content p{
+    margin-bottom: 10px !important;
+}
+
+.Add_product .cart-content .lable{
+    color: #222222;
+    font-weight: 500;
+    text-align: right;
+}
+
+.Add_product .cart-content .value{
+    margin-left: 5px !important;
+    font-size: 16px;
+    color: #9c9b9b;
+}
+
+.cart-content-btn{
+    margin-top: 20px !important;
+}
+
+.cart-content-btn a{
+    margin-right: 10px !important;
+    margin-bottom: 8px !important;
+    vertical-align: top;
+    color: #ffffff;
+    transition: all .3s ease-in-out;
+    text-transform: uppercase;
+    padding: 9px 20px;
+    font: 500 16px 'Heebo', sans-serif;
+}
+
+.cart-content-btn .shopping{
+    background-color: #222222;
+    border-color: #222222;
+}
+
+.cart-content-btn .shopping:hover{
+    background-color: #df711a;
+    color: white;
+}
+
+.cart-content-btn .checkout{
+    background-color: #df711a;
+    border-color: #df711a;
+}
+
+.cart-content-btn .checkout:hover{
+    background-color: #222222;
+    color: white;
+}
