@@ -38,7 +38,7 @@ export const categorys = [
 
 export const page = [
     {"id":1,"img":"images/blog-7.jpg","time":"18 Dec, 2020","head":"Many desktop publishing packages and web page ed","title":"Suspen lobortis disse posuere, diam in bibendum lobortS is, turpis sit amet..."},
-    {"id":2,"img":"images/blog-6.jpg","time":"18 Aug, 2020","head":"Many desktop publishing packages and web page ed","title":"Suspe ndisse posuere, diam in bibendum lobortis, turpis ipsum aliquam risus, sit amet..."},
+    {"id":2,"img":"../../images/blog-6.jpg","time":"18 Aug, 2020","head":"Many desktop publishing packages and web page ed","title":"Suspe ndisse posuere, diam in bibendum lobortis, turpis ipsum aliquam risus, sit amet..."},
     {"id":3,"img":"images/blog-5.jpg","time":"18 Dec, 2020","head":"Many desktop publishing packages and web page ed","title":"Suspendisse posuere, diam in bibendum lobortis, turpis ipsum aliquam risus, sit amet..."},
     {"id":4,"img":"images/blog-4.jpg","time":"18 Mar, 2020","head":"Many desktop publishing packages and web page ed","title":"Suspendisse posuere, diam in bibendum lobortis, turpis ipsum aliquam risus, sit amet..."},
     {"id":5,"img":"images/blog-3.jpg","time":"18 Aug, 2020","head":"Many desktop publishing packages and web page ed","title":" posuere,  lobortis Suspendisse diam in bibendum lobortis, turpis ipsum aliquam risus, sit amet..."},
@@ -58,13 +58,13 @@ export const brands = [
 
 export const data2 = [
     {"id":1,"img":"images/blog-7.jpg","time":"18 Dec, 2020","head":"Many desktop publishing packages and web page ed","title":"Suspen lobortis disse posuere, diam in bibendum lobortS uspendisse is, turpis ipsum aliquam risus, sit amet..."},
-    {"id":2,"img":"images/blog-6.jpg","time":"18 Aug, 2020","head":"Many desktop publishing packages and web page ed","title":"Suspe ndisse posuere, diam in bibendum lobortis, turpis ipsum aliquam risus, sit amet..."},
+    {"id":2,"img":"../../images/blog-6.jpg","time":"18 Aug, 2020","head":"Many desktop publishing packages and web page ed","title":"Suspe ndisse posuere, diam in bibendum lobortis, turpis ipsum aliquam risus, sit amet..."},
     {"id":3,"img":"images/blog-5.jpg","time":"18 Dec, 2020","head":"Many desktop publishing packages and web page ed","title":"Suspendisse posuere, diam in bibendum lobortis, turpis ipsum aliquam risus, sit amet..."},
     {"id":4,"img":"images/blog-4.jpg","time":"18 Mar, 2020","head":"Many desktop publishing packages and web page ed","title":"Suspendisse posuere, diam in bibendum lobortis, turpis ipsum aliquam risus, sit amet..."},
     {"id":5,"img":"images/blog-3.jpg","time":"18 Aug, 2020","head":"Many desktop publishing packages and web page ed","title":" posuere,  lobortis Suspendisse diam in bibendum lobortis, turpis ipsum aliquam risus, sit amet..."},
     {"id":6,"img":"images/blog-2.jpg","time":"18 Dec, 2020","head":"Many desktop publishing packages and web page ed","title":"Suspendisse posuere, diam in bibendum lobortis, turpis ipsum aliquam risus, sit amet..."},
     {"id":7,"img":"images/blog-7.jpg","time":"18 Api, 2020","head":"Many desktop publishing packages and web page ed","title":"Suspendisse posuere, diam in bibendum lobortis, turpis ipsum aliquam risus, sit amet..."},
-    {"id":8,"img":"images/blog-6.jpg","time":"18 Dec, 2020","head":"Many desktop publishing packages and web page ed","title":"Suspendisse posuere, diam in bibendum lobortis, turpis ipsum aliquam risus, sit amet..."},
+    {"id":8,"img":"../../images/blog-6.jpg","time":"18 Dec, 2020","head":"Many desktop publishing packages and web page ed","title":"Suspendisse posuere, diam in bibendum lobortis, turpis ipsum aliquam risus, sit amet..."},
     {"id":9,"img":"images/blog-5.jpg","time":"13 Dec, 2020","head":"Many desktop publishing packages and web page ed","title":"Suspendisse Suspendisse posuere, diam in bibendum lobortis, turpis ipsum aliquam risus, sit amet..."},
     {"id":10,"img":"images/blog-4.jpg","time":"24 Api, 2020","head":"Many desktop publishing packages and web page ed","title":"Suspendisse lobortis posuere, diam in bibSuspendisse endum lobortis, turpis ipsum aliquam risus, sit amet..."},
     {"id":11,"img":"images/blog-3.jpg","time":"10 Dec, 2020","head":"Many desktop publishing packages and web page ed","title":"Sus lobortis pendisse posuere, Suspendisse diam in bibendum lobortis, turpis ipsum aliquam risus, sit amet..."},
